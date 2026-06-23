@@ -71,6 +71,8 @@ SMTP_CONFIGS = {
     "yandex.com": {"server": "smtp.yandex.com", "port": 465, "encryption": "TLS"},
     # iCloud邮箱（使用 SSL）
     "icloud.com": {"server": "smtp.mail.me.com", "port": 587, "encryption": "SSL"},
+    # 港科广 Outlook（Microsoft 365 Exchange Online）
+    "connect.hkust-gz.edu.cn": {"server": "smtp.office365.com", "port": 587, "encryption": "TLS"},
 }
 
 
