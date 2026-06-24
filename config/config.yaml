@@ -336,7 +336,7 @@ notification:
 
     email:
       from: "zhuang712@connect.hkust-gz.edu.cn"  # 发件人邮箱地址
-      password: ""                                # 请到 GitHub Secrets 设置 EMAIL_PASSWORD
+      password: ""                                # 敏感信息，使用 GitHub Secrets 传入 EMAIL_PASSWORD
       to: "zhuang712@connect.hkust-gz.edu.cn"      # 收件人邮箱
       smtp_server: "smtp.office365.com"           # SMTP 服务器
       smtp_port: "587"                            # SMTP 端口 (TLS)
