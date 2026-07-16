@@ -131,7 +131,7 @@ class AppContext:
     @property
     def region_order(self) -> List[str]:
         """获取区域显示顺序"""
-        default_order = ["hotlist", "rss", "new_items", "standalone", "ai_analysis"]
+        default_order = ["ai_analysis", "new_items", "hotlist", "rss", "standalone"]
         return self.config.get("DISPLAY", {}).get("REGION_ORDER", default_order)
 
     @property
